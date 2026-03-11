@@ -1,16 +1,16 @@
-# React + Vite
+Student Activity Manager is a React-based interactive application designed to help students understand and practice key React concepts such as events, conditional rendering, refs, fragments, and argument passing in event handlers.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img width="1112" height="895" alt="Screenshot 2026-03-11 143649" src="https://github.com/user-attachments/assets/1df554b8-440f-4628-ba62-b4d04ece8432" />
 
-Currently, two official plugins are available:
+The project allows users to add students, toggle their details, mark attendance, and delete records — all through React state management and component-based UI updates.
+ No backend or storage is used. All actions are handled within React using state, props, and event-driven rendering.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Project Flow
+1. Component Modules
+2. Working With Events
+3. Passing Arguments to Event Handlers
+4. Conditional Rendering
+5. Refs in React
+6. Using Fragments
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
